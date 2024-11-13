@@ -1,9 +1,15 @@
 # SQL Sorgu Alıştırmaları
 
-Bu hafta SQL sorguları üzerine çalışıyorsunuz. Bugünkü alıştırmada sizin için hazırladığımız veritabanında aşağıda istediğimiz sonuçları elde etmenize yarayan SQL sorgularını oluşturacaksınız.
+Proje kullanılam alıştırmalar
 
-# Proje Kurulumu
-Projeyi forklayın ve clonlayın. Tamamladığınızda da pushlayın.
+· IN Kullanımı
+· DISTINCT Kullanımı
+· SubQuery Yazma
+· Primary Keys
+· SubQuery IN Kullanımı
+· Order By Kullanımı
+· Like Kullanımı I
+· Like Kullanımı II
 
 ## Kütüphane Bilgi Sistemi
 
