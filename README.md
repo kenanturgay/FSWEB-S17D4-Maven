@@ -11,14 +11,6 @@ Proje kullanılam alıştırmalar
 · Like Kullanımı I
 · Like Kullanımı II
 
-## Kütüphane Bilgi Sistemi
-
-Bu veritabanı, bir okulun kütüphanesinden öğrencilerin aldıkları kitapların bilgisini barındırmaktadır.
-* src -> main -> resources altında `test.sql` adında bir dosya bulacaksınız.
-* `test.sql` dosyasını projeye başlamadan önce kendi veritabanınızda MUTLAKA ÇALIŞTIRMALISINIZ.
-* `application.properties` dosyasında `spring.datasource.username` karşısına veritabanını bağlanmak için kullandığınız kullanıcı ismini MUTLAKA GİRİNİZ.
-* `application.properties` dosyasında `spring.datasource.password` karşısına veritabanını bağlanmak için kullandığınız şifreyi MUTLAKA GİRİNİZ.
-
 
 #Tablolar
 `ogrenci` tablosu öğrencilerin listesini tutar.
@@ -27,15 +19,10 @@ Bu veritabanı, bir okulun kütüphanesinden öğrencilerin aldıkları kitaplar
 `yazar` tablosu kitapların yazarları bilgisini tutar
 `tur` tablosu kitapların türlerini tutar.
 
-Tablo ilişiklerini görmek için [ktphn.png] dosyasına göz atın.
-
-Yazdığınız sorguları buradan test edebilirsiniz: [https://ergineer.com/assets/materials/fkg36so5-kutuphanebilgisistemi-sql/] (update, delete, drop sorguları iptal edilmiştir).
 
 ### Görevler
 
-Aşağıda istenilen sonuçlara ulaşabilmek için gerekli SQL sorgularını yazmaya çalışacağız.
-İlgili sqlleri `OgrenciRepository` sınıfı altında tanımlanan `QUESTION` stringlerinin karşısına yazınız.
-* 1. soru için sql sonucunu `OgrenciRepository` sınıfının içerisindeki `QUESTION_1` stringinin içerisine yazınız.
+
 
 
 	1) Öğrenci tablosundaki tüm kayıtları listeleyin.
